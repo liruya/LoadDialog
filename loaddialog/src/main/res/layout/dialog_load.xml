@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ic_loading_bg"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="8dp">
+
+    <!--<ProgressBar-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginHorizontal="48dp"-->
+        <!--android:layout_marginVertical="8dp"-->
+        <!--android:indeterminateBehavior="repeat"-->
+        <!--android:indeterminateDrawable="@drawable/animate_load"-->
+        <!--android:indeterminateOnly="true"-->
+        <!--android:padding="8dp"/>-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/animate_load"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginVertical="8dp"/>
+
+    <TextView
+        android:id="@+id/dialog_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>
